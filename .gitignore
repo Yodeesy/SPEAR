@@ -1,0 +1,74 @@
+# ==========================================
+# Editor & IDE Directories
+# ==========================================
+# JetBrains IDEs (IntelliJ IDEA, WebStorm, PyCharm, GoLand, etc.)
+.idea/
+*.iws
+*.iml
+*.ipr
+
+# Visual Studio Code
+# Ignores personal local state while preserving shared team configs if needed
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+
+# Eclipse & NetBeans
+.project
+.classpath
+.settings/
+nbproject/
+
+
+# ==========================================
+# Environment Variables & Sensitive Credentials
+# ==========================================
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+*.cert
+
+
+# ==========================================
+# Log Files & Runtime Telemetry
+# ==========================================
+logs/
+*.log
+
+
+# ==========================================
+# Dependencies & Package Managers
+# ==========================================
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.venv/
+env/
+
+
+# ==========================================
+# Build Artifacts & Output Directories
+# ==========================================
+dist/
+build/
+out/
+bin/
+obj/
+
+
+# ==========================================
+# Temporary Files & Caches
+# ==========================================
+.cache/
+.temp/
+.tmp/
+.eslintcache
+.parcel-cache/
+.turbo/
