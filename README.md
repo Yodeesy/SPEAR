@@ -1,4 +1,5 @@
 # Rethinking One-Shot Federated Graph Learning: Training-Free Statistical Estimation
+[![arXiv](https://img.shields.io/badge/arXiv-2609.06154-b31b1b.svg)](https://arxiv.org/abs/2609.06154)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ---
@@ -81,6 +82,21 @@ All benchmark configurations follow the default parameters in `args.py`:
 * **Hyperparameters:** Teleport probability $\alpha = 0.15$, Propagation depth $T = 2$, Shrinkage factor $\gamma = 0.5$
 
 *Note: Baseline training-based GNN architectures are provided under `backbone/` solely for benchmark reproducibility.*
+
+---
+##Citation
+If you find this work or code useful in your research, please consider citing:
+```txt
+@misc{zheng2026rethinkingoneshotfederatedgraph,
+      title={Rethinking One-Shot Federated Graph Learning: Training-Free Statistical Estimation}, 
+      author={Shutong Zheng and Sijia Chen},
+      year={2026},
+      eprint={2609.06154},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2609.06154}, 
+}
+```
 
 ---
 
